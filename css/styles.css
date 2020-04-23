@@ -1,0 +1,126 @@
+body {
+    
+    text-align: center;
+}
+
+/*Title Section*/
+
+#title {
+    padding: 20px 0 30px;
+    background-color: #d4d7dd;
+}
+
+.head-title {
+    color: #d4d7dd;
+}
+
+.head-button {
+    margin: 10px auto 20px;
+}
+
+.head-button:hover {
+    
+    background-color: #fa744f;
+}
+
+/* Product Section*/
+
+#products {
+    padding: 20px 30px 80px;
+    background-color: #fa744f;
+}
+
+.product-title {
+    margin: 30px auto 40px;
+    color:#d4d7dd;
+}
+
+.product-text {
+    font-size: large;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #ed3833;
+}
+
+.card-body:hover {
+    background-color: #d4d7dd;
+}
+
+.card-footer {
+    background-color: #d4d7dd;
+}
+
+/* Services Section */
+
+#services {
+    padding: 40px 30px 80px;
+    background-color: #d4d7dd;
+}
+
+.service-title {
+    margin: 20px auto 40px;
+    color: #fa744f;
+}
+
+.service-img {
+    background-color: #ed3833;
+    border-radius: 100%;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.service-text {
+    color: #ed3833;
+}
+
+/* Customer Feedback Section */
+
+#feedback {
+    background-color: #ed3833;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    color: #d4d7dd;
+}
+
+.img-carousel {
+    width: 15%;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+/* Sponsors Section */
+
+#sponsors {
+    padding: 5% 15%;
+    background-color: #fa744f;
+    color: #d4d7dd;
+}
+
+.sponsor-title {
+    margin: 0 auto 50px;
+}
+
+.sponsor-img {
+    border-radius: 100%;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    background-color: #d4d7dd;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cottage Website</title>
+
+    <!--Bootstrap Required Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Font Awesome JS-->
+    <script src="https://kit.fontawesome.com/811e573376.js" crossorigin="anonymous"></script>
+
+    <!--css Original-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Bootstrap Required JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--Title Section-->
+
+    <section id="title">
+        <div class="container-fluid">
+            <button class="head-button btn btn-danger btn-lg"><h1 class="head-title">COTTAGE COMMERCIAL</h1></button>
+            
+            <nav class="navigation navbar navbar-expand-lg navbar-dark">
+                <button class="btn btn-primary btn-lg">Log In</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#products"><button class="btn btn-outline-success">Products</button></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#services"><button class="btn btn-outline-warning">Services</button></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#feedback"><button class="btn btn-outline-info">More</button></a>
+                        </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!--Products Section-->
+
+    <section id="products">
+        <div class="container-fluid">
+            <h2 class="product-title">Make In India : Products</h2>
+
+            <div class="row">
+                <div class="product-one col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card_img pot_image" src="Images/pot_image.jfif" alt="Indian Pot Image">
+                        </div>
+                        <div class="card-footer">
+                            <p class="product-text">Indian Pottery Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-two col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img  class="card_img craft_image" src="Images/craft_image.jfif" alt="Indian Craft Image">
+                        </div>
+                        <div class="card-footer">
+                            <p class="product-text">Indian Craft Design Variations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-three col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card_img art_image" src="Images/art_image.jfif" alt="Indian Art Image">
+                        </div>
+                        <div class="card-footer">
+                            <p class="product-text">Indian Artistic Varieties</p>
+                        </div>
+                    </div>
+                </div>  
+
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section-->
+
+    <section id="services">
+        <div class="container-fluid">
+            <h2 class="service-title">Client Services</h2>
+
+            <div class="row">
+                <div class="first-service col-lg-4 col-md-6">
+                    <img class="service-img computer_img" src="Images/computer.png" alt="Computer Image">
+                    <h4 class="service-text">Complete Online Support for your registered Cottage Store</h4>
+                </div>
+
+                <div class="second-service col-lg-4 col-md-6">
+                    <img class="service-img mike_img" src="Images/mike.png" alt="Mike Image">
+                    <h4 class="service-text">Levelled marketing through Various methods of products</h4>
+                </div>
+
+                <div class="third-service col-lg-4">
+                    <img class="service-img install_img" src="Images/installation.png" alt="Installation Image">
+                    <h4 class="service-text">Continous Installation and Updation of App to serve the Customer</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Feedback Section-->
+    <section id="feedback">
+        <div class="container-fluid">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="slide-deck carousel-inner">
+                  <div class="carousel-item active">
+                    <h2>Great Delivery of products. Pure Indian Items with wonderful Craftsmanship</h2>
+                    <img class="img-carousel" src="Images/angela.png" alt="Angela Image">
+                    <em>Angela, London</em>
+                  </div>
+                  <div class="carousel-item">
+                    <h2>Enthusiastic team and they provide full technical support in Installation of Shop.</h2>
+                    <img class="img-carousel" src="Images/lady-img.jpg" alt="Lady Image">
+                    <em>Pebbles, New York</em>
+                  </div>
+                  <div class="carousel-item">
+                    <h2>Staff Support awesome. Guided our Shop team to set up an Art Gallery and provided best Items.</h2>
+                    <img class="img-carousel" src="Images/ReetImg.png" alt="Reet Image">
+                    <em>Reet, India</em>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Partners/Sponsors Section-->
+    <section id="sponsors">
+        
+             <h2 class="sponsor-title">Our Consumer Partners/Sponsors</h2> 
+
+            <div class="row">
+
+                <div class="sponsor-one col-lg-4 col-md-6">
+                    <img class="sponsor-img" src="Images/walmart_img.png" alt="Walmart Company Image">
+                </div>
+
+                <div class="sponsor-two col-lg-4 col-md-6">
+                    <img class="sponsor-img" src="Images/colibri_img.png" alt="Colibri Company Image">
+                </div>
+
+                <div class="sponsor-three col-lg-4">
+                    <img class="sponsor-img" src="Images/craft_img.png" alt="Craft Company Image">
+                </div>
+            </div>
+        
+    </section>
+
+    <!--Footer Copyright Section-->
+    <footer id="footer">
+
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2018 CottageCommercial</p>
+    
+    </footer>
+</body>
+</html>
